@@ -4,7 +4,7 @@ iMAS - iOS Mobile Application Security
 
 iOS secure application framework research to reduce iOS application vulnerabilities and information loss
 
-![screenshot](./imas_logo.png)
+![screenshot](https://github.com/project-imas/about/imas_logo.png)
 
 By Gregg Ganley, Caleb Davenport, and Shawn Valle
 
