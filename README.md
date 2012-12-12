@@ -50,7 +50,7 @@ Each are available in an iMAS github repo.
 
 hReader
 =======
-iMAS has partnered with hReader to bolster the Apple provided secuirty model.  More on [hReader.org](http://hReader.org) - A patient-centric mobile health data manager that provides patients and their families with their complete health information securely.   hReader.org source code is located [here](https://github.com/projecthreader/hReader)   
+iMAS has partnered with hReader to bolster the Apple provided secuirty model.  The developers added iMAS security controls to the application and the experience proved to be a great test-bed and partnership.  More on [hReader.org](http://hReader.org) - A patient-centric mobile health data manager that provides patients and their families with their complete health information securely.   hReader.org source code is located [here](https://github.com/projecthreader/hReader)   
 
 Use, Feedback, and Improvement
 ==============================
