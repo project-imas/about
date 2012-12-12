@@ -36,12 +36,12 @@ iMAS is a colaborative research project from the MITRE corporation.  In summary:
 iMAS Custom Security Controls
 =============================
 
-iMAS is researching both static and dynmaic security defense in the form of custom iOS security controls.  Currently 3 components are available to the open source community:<p>
-     1. *Secure Foundation Control*
+iMAS is researching both static and dynmaic security defense in the form of custom iOS security controls.  Currently 3 components are available to the open source community:
+     - *Secure Foundation Control*
         Cipherlib, crypto manager, keychain crypto
-     2. *AppPassword Control*
+     - *AppPassword Control*
         Allows custom iOS user authentication mechanism
-     3. *PasscodeCheck Control*
+     - *PasscodeCheck Control*
         Allows an application to verify if an iOS passcode has been set and what complexity.  Based on this, an application can programtically decide to execute fully or in a degraded state given this system evidence
  
 Each are available in an iMAS github repo.
