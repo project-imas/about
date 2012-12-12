@@ -14,7 +14,7 @@ In Short
 - iOS security controls beyond Apple's model
 - iMAS wrapped applications will reduce iOS attack surface
 - Security control reserach across static and dynamic vulnerabilities
-- iOS Vulnerability vectors focus
+- iOS vulnerability vector focus
   - Lost / stolen device, physical access attacks
   - Mitigate(1) threat of attacker has device, bruteforces the system passcode, and then steals private application information
   - Mitigate(2) malware using system passcode to gain access to private application data
@@ -24,7 +24,7 @@ In Short
 About
 =====
 
-iMAS is a research project being conducted by the MITRE corporation.  In summary: iMAS is an iOS secure application framework research project focused on reducing iOS application vulnerabilities and information loss.
+iMAS is a colaborative research project from the MITRE corporation.  In summary: iMAS is an iOS secure application framework research project focused on reducing iOS application vulnerabilities and information loss.
 
 - The research is investigating how to protect iOS applications and data beyond the Apple provided security model.  
 - iOS meets enterprise security needs of customers, however many security experts cite critical vulnerabilities and have demonstrated exploits.  
@@ -47,13 +47,17 @@ iMAS is researching both static and dynmaic security defense in the form of cust
 Each are available in an iMAS github repo.
 
 
+hReader
+=======
+iMAS has partnered with hReader to bolster the Apple provided secuirty model.  More on hReader.org - A patient-centric mobile health data manager that provides patients and their families with their complete health information securely.   
+
 Use, Feedback, and Improvement
 ==============================
 
 We strongly encourage developers to clone and use iMAS.  We also ask that you please provide us feedback on your intended use so we are able have an idea of relevancy and need - which will help to keep our research funded in the long run.  Lastly, please feel free to enhance and improve the actual controls by submitting pull requests early and often!
 
 License
-=======
+-------
 
 Copyright 2012 The MITRE Corporation, All Rights Reserved.
 
