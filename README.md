@@ -1,4 +1,3 @@
-
 iMAS - iOS Mobile Application Security
 ======================================
 
@@ -13,7 +12,7 @@ In Short
 ========
 - iOS security controls beyond Apple's model
 - iMAS wrapped applications will reduce iOS attack surface
-- Security control reserach across static and dynamic vulnerabilities
+- Security control research across static and dynamic vulnerabilities
 - iOS vulnerability vector focus
   - Lost / stolen device, physical access attacks
   - Mitigate(1) threat of attacker has device, bruteforces the system passcode, and then steals private application information
