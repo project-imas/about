@@ -10,12 +10,11 @@ By [Gregg Ganley](https://github.com/gandg), [Caleb Davenport](https://github.co
 
 In Short
 ========
-- iOS security controls beyond Apple's model
-- iMAS wrapped applications will reduce iOS attack surface
-- Security control research across static and dynamic vulnerabilities
+- iOS security controls that go beyond Apple's model
+- iMAS wrapped applications will reduce iOS attack surface- Security control research across static and dynamic vulnerabilities
 - iOS vulnerability vector focus
   - Lost / stolen device, physical access attacks
-  - Mitigate(1) threat of attacker has device, bruteforces the system passcode, and then steals private application information
+  - Mitigate(1) threat of attacker  that has device, bruteforces the system passcode, and then steals private application information
   - Mitigate(2) malware using system passcode to gain access to private application data
 - Controls open sourced for community use, feedback, and improvement
 
@@ -23,19 +22,19 @@ In Short
 About
 =====
 
-iMAS is a colaborative research project from the MITRE corporation.  In summary: iMAS is an iOS secure application framework research project focused on reducing iOS application vulnerabilities and information loss.
-
-- The research is investigating how to protect iOS applications and data beyond the Apple provided security model.  
-- iOS meets enterprise security needs of customers, however many security experts cite critical vulnerabilities and have demonstrated exploits.  
-- iMAS will research areas concentrated on reducing an adversary’s ability and efficiency to perform recon, exploitation, control and execution on iOS mobile applications.  
-- iMAS will transform and increase the effectiveness of the existing iOS security model across major vulnerability areas including the System Passcode, jailbreak, debugger / run-time, flash storage, and keychain.- Further, research into a secure application container, including application framework, developer and validation tools/techniques will be done.  
-- The primary use case is Healthcare PHI information on a mobile device also research will support other use cases.  
-- Throughout the project, we plan to open source security controls, encourage community developers, and continue research to maintain relevance and currency. 
+iMAS is a collaborative research project from the MITRE corporation. In summary: iMAS is an iOS secure application framework research project focused on reducing iOS application vulnerabilities and information loss.
+- The research is investigating how to protect iOS applications and data beyond the Apple provided security model.
+- iOS meets enterprise security needs of customers, however many security experts cite critical vulnerabilities and have demonstrated exploits.
+- iMAS will research areas concentrated on reducing an adversary’s ability and efficiency to perform recon, exploitation, control and execution on iOS mobile applications.
+- iMAS will transform and increase the effectiveness of the existing iOS security model across major vulnerability areas including the System Passcode, jailbreak, debugger / run-time, flash storage, and keychain. Further, research into a secure application container, including application framework, developer and validation tools/techniques will be done.
+- The primary use case is Healthcare PHI information on a mobile device also research will support other use cases.
+- Throughout the project, we plan to open source security controls, encourage community developers to get involved, and continue research to maintain relevance and currency. 
+ 
 
 iMAS Custom Security Controls
 =============================
 
-iMAS is researching both static and dynmaic security defense in the form of custom iOS security controls.  Currently 3 components are available to the open source community:
+iMAS is researching both static and dynamic security defense in the form of custom iOS security controls. Currently 3 components are available to the open source community:
      
 1. *Secure Foundation Control*
    - Cipherlib, crypto manager, keychain crypto
@@ -44,17 +43,17 @@ iMAS is researching both static and dynmaic security defense in the form of cust
 3. *PasscodeCheck Control*
    - Allows an application to verify if an iOS passcode has been set and what complexity.  Based on this, an application can programtically decide to execute fully or in a degraded state given this system evidence
  
-Each are available in an iMAS github repo.
+All three components are available in an iMAS github repo.
 
 
 hReader
 =======
-iMAS has partnered with hReader to bolster the Apple provided secuirty model.  The developers added iMAS security controls to the application and the experience proved to be a great test-bed and partnership.  More on [hReader.org](http://hReader.org) - A patient-centric mobile health data manager that provides patients and their families with their complete health information securely.   hReader.org source code is located [here](https://github.com/projecthreader/hReader)   
+iMAS has partnered with hReader to bolster the Apple provided security model. The developers added iMAS security controls to the application resulting in an experience that proved to be a great test-bed and partnership. hReader is a patient-centric mobile health data manager that securely provides patients and their families with their complete health information. To learn more about the application, go to [hReader.org]](http://hReader.org) or check out their [source code](https://github.com/projecthreader/hReader)   
 
 Use, Feedback, and Improvement
 ==============================
 
-We strongly encourage developers to clone and use iMAS.  We also ask that you please provide us feedback on your intended use so we are able have an idea of relevancy and need - which will help to keep our research funded in the long run.  Lastly, please feel free to enhance and improve the actual controls by submitting pull requests early and often!
+We strongly encourage developers to clone and use iMAS. Once you’ve had a chance to use iMAS, tell us what you think by providing us with feedback on your intended use. This information will enable us to address relevancy and need - which will help to keep our research funded in the long run. Lastly, feel free to enhance and improve the actual controls by submitting pull requests early and often!
 
 License
 -------
