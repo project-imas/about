@@ -30,6 +30,8 @@ iMAS is a collaborative research project from the MITRE corporation. In summary:
 - iMAS will transform and increase the effectiveness of the existing iOS security model across major vulnerability areas including the System Passcode, jailbreak, debugger / run-time, flash storage, and keychain. Further, research into a secure application container, including application framework, developer and validation tools/techniques will be done.
 - The primary use case is Healthcare PHI information on a mobile device also research will support other use cases.
 - Throughout the project, we plan to open source security controls, encourage community developers to get involved, and continue research to maintain relevance and currency. 
+
+![screenshot](https://github.com/project-imas/about/raw/master/iMAS_framework.png)
  
 
 iMAS Custom Security Controls
