@@ -17,6 +17,7 @@ In Short
   - Lost / stolen device, physical access attacks
   - Mitigate(1) threat of attacker  that has device, bruteforces the system passcode, and then steals private application information
   - Mitigate(2) malware using system passcode to gain access to private application data
+- Industry security standards applied to each control, via Common Weakness Enumeration (CWE) software weaknesses.
 - Controls open sourced for community use, feedback, and improvement
 
 
@@ -28,6 +29,7 @@ iMAS is a collaborative research project from the MITRE corporation. In summary:
 - iOS meets enterprise security needs of customers, however many security experts cite critical vulnerabilities and have demonstrated exploits.
 - iMAS will research areas concentrated on reducing an adversary’s ability and efficiency to perform recon, exploitation, control and execution on iOS mobile applications.
 - iMAS will transform and increase the effectiveness of the existing iOS security model across major vulnerability areas including the System Passcode, jailbreak, debugger / run-time, flash storage, and keychain. Further, research into a secure application container, including application framework, developer and validation tools/techniques will be done.
+- iMAS will apply Common Weakness Enumerations (CWE), better known as software errors, to each vulnerability addressed. This will better help security engineers identify the value of each implementation. More CWE details can be found at http://cwe.mitre.org.
 - The primary use case is Healthcare PHI information on a mobile device also research will support other use cases.
 - Throughout the project, we plan to open source security controls, encourage community developers to get involved, and continue research to maintain relevance and currency. 
 
