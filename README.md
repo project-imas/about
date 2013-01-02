@@ -41,7 +41,7 @@ iMAS is a collaborative research project from the MITRE corporation. In summary:
 iMAS Custom Security Controls
 =============================
 
-iMAS is researching both static and dynamic security defense in the form of custom iOS security controls. Currently 3 components are available to the open source community:
+iMAS is researching both static and dynamic security defense in the form of custom iOS security controls. Currently four components are available to the open source community:
      
 1. *Secure Foundation Control*
    - Cipherlib, crypto manager, keychain crypto
@@ -52,7 +52,7 @@ iMAS is researching both static and dynamic security defense in the form of cust
 4. *Encrypted Core Data*
    - Provides a Core Data encrypted SQLite store using [SQLCipher](http://sqlcipher.net). 
  
-All three components are available in an iMAS github repo.
+All components are available in an iMAS github repo.
 
 
 hReader
