@@ -49,6 +49,8 @@ iMAS is researching both static and dynamic security defense in the form of cust
    - Allows custom iOS user authentication mechanism
 3. *PasscodeCheck Control*
    - Allows an application to verify if an iOS passcode has been set and what complexity.  Based on this, an application can programtically decide to execute fully or in a degraded state given this system evidence
+4. *Encrypted Core Data*
+   - Provides a Core Data encrypted SQLite store using [SQLCipher](http://sqlcipher.net). 
  
 All three components are available in an iMAS github repo.
 
