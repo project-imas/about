@@ -29,7 +29,9 @@ iMAS is a collaborative research project from the MITRE corporation. In summary:
 - iOS meets enterprise security needs of customers, however many security experts cite critical vulnerabilities and have demonstrated exploits.
 - iMAS will research areas concentrated on reducing an adversary’s ability and efficiency to perform recon, exploitation, control and execution on iOS mobile applications.
 - iMAS will transform and increase the effectiveness of the existing iOS security model across major vulnerability areas including the System Passcode, jailbreak, debugger / run-time, flash storage, and keychain. Further, research into a secure application container, including application framework, developer and validation tools/techniques will be done.
-- iMAS will apply Common Weakness Enumerations (CWE), better known as software errors, to each vulnerability addressed. This will better help security engineers identify the value of each implementation. More CWE details can be found at http://cwe.mitre.org.
+- iMAS will apply several software security standards, applicble to many diciplines.
+  - Common Weakness Enumerations (CWE), better known as software errors, are applied to each vulnerability addressed. This will better help security engineers identify the value of each implementation. More CWE details can be found at http://cwe.mitre.org.
+  - Defense Information Security Agency (DISA) has published a Mobile Application Security Reference Guide (SRG) for U.S. Department of Defense (DoD) mobile app developers.  iMAS addresses DISA's Mobile App SRG where applicable. More SRG details can be found at http://iase.disa.mil/stigs/net_perimeter/wireless/smartphone.html.
 - The primary use case is Healthcare PHI information on a mobile device also research will support other use cases.
 - Throughout the project, we plan to open source security controls, encourage community developers to get involved, and continue research to maintain relevance and currency. 
 
