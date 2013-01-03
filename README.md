@@ -44,13 +44,13 @@ iMAS Custom Security Controls
 
 iMAS is researching both static and dynamic security defense in the form of custom iOS security controls. Currently four components are available to the open source community:
      
-1. *Secure Foundation Control*
+1. [*Secure Foundation Control*](https://github.com/project-imas/securefoundation)
    - Cipherlib, crypto manager, keychain crypto
-2. *AppPassword Control*
+2. [*AppPassword Control*](https://github.com/project-imas/app-password)
    - Custom iOS user authentication mechanism (password with security questions for self reset)
-3. *PasscodeCheck Control*
+3. [*PasscodeCheck Control*](https://github.com/project-imas/passcode-check)
    - Allows an application to verify if an iOS passcode has been set and what complexity.  Based on this, an application can programtically decide to execute fully or in a degraded state given this system evidence
-4. *Encrypted Core Data*
+4. [*Encrypted Core Data*](https://github.com/project-imas/encrypted-core-data)
    - Provides a Core Data encrypted SQLite store using [SQLCipher](http://sqlcipher.net). 
  
 All components are available in an iMAS github repo.
