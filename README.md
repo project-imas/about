@@ -62,7 +62,8 @@ All components are available in an iMAS github repo.
 - Application self-signing integrity check at run-time
   - Developer can programatically determine if the application image has been tampered with
 - Run-time memory encryption and post use scrub
-  - Elliminate clear-text sensitive data from memory after app use  
+  - Elliminate clear-text sensitive data from memory after app use
+- Independant security audit conducted on all security controls; updates to follow therafter
 
 How To Use
 ==========
