@@ -5,13 +5,13 @@ iOS secure application framework research to reduce iOS application vulnerabilit
 
 ![screenshot](https://github.com/project-imas/about/raw/master/imas_logo.png)
 
-By [Gregg Ganley](https://github.com/gandg) and [Shawn Valle](https://github.com/SecurityShawn) 
+Researchers: [Gregg Ganley](https://github.com/gandg) and [Shawn Valle](https://github.com/SecurityShawn) 
 
 
 In Short
 ========
 - iOS security controls that go beyond Apple's model
-- iMAS wrapped applications will reduce the iOS app attack surface
+- iMAS wrapped applications will reduce the iOS app attack surface and increase your apps security
 - Security control research across static and dynamic vulnerabilities
 - iOS vulnerability vector focus
   - Lost / stolen device, physical access attacks
@@ -19,6 +19,7 @@ In Short
   - Mitigate(2) malware using system passcode to gain access to private application data
 - Industry security standards applied to each control, via Common Weakness Enumeration (CWE) software weaknesses.
 - Controls open sourced for community use, feedback, and improvement
+- Browse our project, download and give it a try, tell us what you think, or better yet, get involved and participate!
 
 
 About
@@ -26,13 +27,13 @@ About
 
 iMAS is a collaborative research project from the MITRE corporation. In summary: iMAS is an iOS secure application framework research project focused on reducing iOS application vulnerabilities and information loss.
 - The research is investigating how to protect iOS applications and data beyond the Apple provided security model.
-- iOS meets enterprise security needs of customers, however many security experts cite critical vulnerabilities and have demonstrated exploits.
+- iOS meets enterprise security needs of customers, however many security experts cite critical vulnerabilities and have demonstrated exploits, which pushes enterprises to augment iOS deployments with commercial solutions.
 - iMAS will research areas concentrated on reducing an adversary’s ability and efficiency to perform recon, exploitation, control and execution on iOS mobile applications.
 - iMAS will transform and increase the effectiveness of the existing iOS security model across major vulnerability areas including the System Passcode, jailbreak, debugger / run-time, flash storage, and keychain. Further, research into a secure application container, including application framework, developer and validation tools/techniques will be done.
 - iMAS will apply several software security standards, applicable to many diciplines.
   - Common Weakness Enumerations (CWE), better known as software errors, are applied to each vulnerability addressed. This will better help security engineers identify the value of each implementation. More CWE details can be found at http://cwe.mitre.org.
   - Defense Information Security Agency (DISA) has published a Mobile Application Security Reference Guide (SRG) for U.S. Department of Defense (DoD) mobile app developers.  iMAS addresses DISA's Mobile App SRG where applicable. More SRG details can be found at http://iase.disa.mil/stigs/net_perimeter/wireless/smartphone.html.
-- The primary use case is Healthcare PHI information on a mobile device also research will support other use cases.
+- The primary use case is Healthcare PHI information on a mobile device; research will support other use cases.
 - Throughout the project, we plan to open source security controls, encourage community developers to get involved, and continue research to maintain relevance and currency. 
 
 ![screenshot](https://github.com/project-imas/about/raw/master/iMAS_framework.png)
@@ -46,7 +47,7 @@ iMAS is researching both static and dynamic security defense in the form of cust
 1. *Secure Foundation Control*
    - Cipherlib, crypto manager, keychain crypto
 2. *AppPassword Control*
-   - Allows custom iOS user authentication mechanism
+   - Custom iOS user authentication mechanism (self resetting passcode and security questions)
 3. *PasscodeCheck Control*
    - Allows an application to verify if an iOS passcode has been set and what complexity.  Based on this, an application can programtically decide to execute fully or in a degraded state given this system evidence
 4. *Encrypted Core Data*
@@ -54,10 +55,26 @@ iMAS is researching both static and dynamic security defense in the form of cust
  
 All components are available in an iMAS github repo.
 
+*In the works*
+
+- Jailbreak detection library
+  o Developer can programatically decide how its application operates in a jailbroken or standard environment
+- Application self-signing integrity check at run-time
+  o Developer can programatically determine if the application image has been tampered with
+- Run-time memory encryption and post use scrub
+  o Elliminate clear-text sensitive data from memory after app use  
+
+How To Use
+==========
+
+Browse the README files of each security control, clone, try out the sample app, incorporate into your iOS application, email us with feedback, contribute and participate !!
 
 hReader
 =======
 iMAS has partnered with hReader to bolster the Apple provided security model. The developers added iMAS security controls to the application resulting in an experience that proved to be a great test-bed and partnership. hReader is a patient-centric mobile health data manager that securely provides patients and their families with their complete health information. To learn more about the application, go to [hReader.org](http://hReader.org) or check out their [source code](https://github.com/projecthreader/hReader).   
+
+*In the works*
+iMAS plans to publish a technical report describing the hReader security audit and its resulting, measured security increase along with the labor costs.  Based on this, the iMAS community can add measured security to their applications as well.
 
 Use, Feedback, and Improvement
 ==============================
