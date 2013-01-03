@@ -47,7 +47,7 @@ iMAS is researching both static and dynamic security defense in the form of cust
 1. *Secure Foundation Control*
    - Cipherlib, crypto manager, keychain crypto
 2. *AppPassword Control*
-   - Custom iOS user authentication mechanism (self resetting passcode and security questions)
+   - Custom iOS user authentication mechanism (password with security questions for self reset)
 3. *PasscodeCheck Control*
    - Allows an application to verify if an iOS passcode has been set and what complexity.  Based on this, an application can programtically decide to execute fully or in a degraded state given this system evidence
 4. *Encrypted Core Data*
