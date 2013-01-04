@@ -70,6 +70,11 @@ How To Use
 
 Browse the README files of each security control, clone, try out the sample app, incorporate into your iOS application, email us with feedback, contribute and participate !!
 
+Why iMAS?
+=========
+
+A large percentage of iOS user have a weak system passcode (e.g. simple 4 digit passcode or no passcode at all).  The passcode is integral to the underlying security that supports iOS applications.  With a weak passcode, an attacker within a short of amount of time could connect a laptop to an iPhone/iPad, bruteforce guess the passcode, and steal enterprise information from iOS applications that are protected with standard iOS security.  With iMAS a developer can add security controls that prevent this easy attack.  Enterprises can augment their custom built iOS solutions with iMAS to ensure application security is bolstered and a deeper trust is established. As more and more important information, like a families personal health records, is pushed to mobile devices, measurable increases in security is critical.  With iMAS, we believe the application layer is a key area as part of a balanced, defense in depth security approach.
+
 hReader
 =======
 iMAS has partnered with hReader to bolster the Apple provided security model. The developers added iMAS security controls to the application resulting in an experience that proved to be a great test-bed and partnership. hReader is a patient-centric mobile health data manager that securely provides patients and their families with their complete health information. To learn more about the application, go to [hReader.org](http://hReader.org) or check out their [source code](https://github.com/projecthreader/hReader).   
