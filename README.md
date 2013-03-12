@@ -52,18 +52,22 @@ iMAS is researching both static and dynamic security defense in the form of cust
    - Allows an application to verify if an iOS passcode has been set and what complexity.  Based on this, an application can programtically decide to execute fully or in a degraded state given this system evidence
 4. [*Encrypted Core Data*](https://github.com/project-imas/encrypted-core-data)
    - Provides a Core Data encrypted SQLite store using [SQLCipher](http://sqlcipher.net). 
+5. [*Security-check*](https://github.com/project-imas/security-check)
+   - Application level, attached debug detect and jailbreak checking
  
 All components are available in an iMAS github repo.
 
 *In the works*
 
-- Jailbreak detection library
-  - Developer can programatically decide how its application operates in a jailbroken or standard environment
+- Encrypted Core Data improvements
 - Application self-signing integrity check at run-time
   - Developer can programatically determine if the application image has been tampered with
 - Run-time memory encryption and post use scrub
   - Elliminate clear-text sensitive data from memory after app use
 - Independant security audit conducted on all security controls; updates to follow therafter
+- Encrypted RAM Disk: research bundling TrueCrypt RAM disk within an app; allows for rapid data destruction on app exit 
+- App Signature check: research confirmation that app is signed by original author
+- Encrypted Code Modules (ECM)
 
 How To Use
 ==========
@@ -82,14 +86,6 @@ iMAS has partnered with hReader to bolster the Apple provided security model. Th
 *In the works*
 
 iMAS plans to publish a technical report describing the hReader security audit and its resulting, measured security compliance increase along with the labor costs.  Based on this, the iMAS community can add measured security to their applications in a cost effective manner.
-
-Future security control research and improvements as of 3/12/13:
-       - App Integrity check: secure, tamper proof "app checksum" algorithm to ensure additional trust for enterprise apps (not intended app store use)
-       - Encrypted RAM Disk: research bundling TrueCrypt RAM disk within an app; allows for rapid data destruction on app exit 
-       - App Signature check: research confirmation that app is signed by original author
-       - Run-time memory check: address validation checks at run-time; scrub memory on app exit
-       - Encrypted Code Modules (ECM)
-
 
 Use, Feedback, and Improvement
 ==============================
