@@ -81,7 +81,15 @@ iMAS has partnered with hReader to bolster the Apple provided security model. Th
 
 *In the works*
 
-iMAS plans to publish a technical report describing the hReader security audit and its resulting, measured security increase along with the labor costs.  Based on this, the iMAS community can add measured security to their applications in a cost effective manner.
+iMAS plans to publish a technical report describing the hReader security audit and its resulting, measured security compliance increase along with the labor costs.  Based on this, the iMAS community can add measured security to their applications in a cost effective manner.
+
+Future security control research and improvements as of 3/12/13:
+       - App Integrity check: secure, tamper proof "app checksum" algorithm to ensure additional trust for enterprise apps (not intended app store use)
+       - Encrypted RAM Disk: research bundling TrueCrypt RAM disk within an app; allows for rapid data destruction on app exit 
+       - App Signature check: research confirmation that app is signed by original author
+       - Run-time memory check: address validation checks at run-time; scrub memory on app exit
+       - Encrypted Code Modules (ECM)
+
 
 Use, Feedback, and Improvement
 ==============================
