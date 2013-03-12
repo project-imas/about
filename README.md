@@ -5,7 +5,7 @@ iOS secure application framework research to reduce iOS application vulnerabilit
 
 ![screenshot](https://github.com/project-imas/about/raw/master/imas_logo.png)
 
-Researchers: [Gregg Ganley](https://github.com/gandg) and [Shawn Valle](https://github.com/SecurityShawn) 
+Researchers: [Gregg Ganley](https://github.com/gandg), [Shawn Valle](https://github.com/SecurityShawn), Gavin Black
 
 
 In Short
