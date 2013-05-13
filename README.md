@@ -11,10 +11,10 @@ Researchers: [Gregg Ganley](https://github.com/gandg), [Shawn Valle](https://git
 iMAS Outreach
 =================
 - Computerworld
-  [local copy - Computerworld Article](http://htmlpreview.github.io/?https://github.com/project-imas/about/blob/master/Kenneth%20van%20Wyk%20%20Making%20safer%20iOS%20apps.htm)
-  [Computerworld](http://www.computerworld.com/s/article/print/9238618/Kenneth_van_Wyk_Making_safer_iOS_apps?taxonomyName=App+Development&taxonomyId=11)
+  - [local copy - Computerworld Article](http://htmlpreview.github.io/?https://github.com/project-imas/about/blob/master/Kenneth%20van%20Wyk%20%20Making%20safer%20iOS%20apps.htm) 
+  - [Computerworld](http://www.computerworld.com/s/article/print/9238618/Kenneth_van_Wyk_Making_safer_iOS_apps?taxonomyName=App+Development&taxonomyId=11)
 - OWASP Project
-  [OWASP project page](https://www.owasp.org/index.php/OWASP_iMAS_iOS_Mobile_Application_Security_Project)
+  - [OWASP project page](https://www.owasp.org/index.php/OWASP_iMAS_iOS_Mobile_Application_Security_Project)
 
 In Short
 ========
