@@ -5,7 +5,7 @@ iOS secure application framework research to reduce iOS application vulnerabilit
 
 ![screenshot](https://github.com/project-imas/about/raw/master/imas_logo.png)
 
-Researchers: [Gregg Ganley](https://github.com/gandg), [Shawn Valle](https://github.com/SecurityShawn), Gavin Black
+Researchers: [Gregg Ganley](https://github.com/gandg), [Shawn Valle](https://github.com/SecurityShawn), [Gavin Black](https://github.com/gblackMitre)
 
 
 iMAS Outreach
@@ -15,10 +15,17 @@ iMAS Outreach
   - [local copy](http://htmlpreview.github.io/?https://github.com/project-imas/about/blob/master/Kenneth%20van%20Wyk%20%20Making%20safer%20iOS%20apps.htm) 
 - OWASP Project
   - [OWASP project page](https://www.owasp.org/index.php/OWASP_iMAS_iOS_Mobile_Application_Security_Project)
+- OWASP AppSEC Nov 2013
+  - iMAS will be presented by Gregg Ganley
+- BlackHat Arsenal Tools talk, July 2013
+  - iMAS will be demonstrated by Gregg Ganley and Shawn Valle, stop by and check it out!
+- [OWASP Northern Virginia Chapter, August 2013] (http://www.meetup.com/OWASP-Northern-Virginia-Chapter/events/119172702)
+  - iMAS will be presented by Gregg Ganley
 
 In Short
 ========
-- iOS security controls that go beyond Apple's model
+- iOS application defense
+- iOS security controls that go beyond Apple's security model
 - iMAS wrapped applications will reduce the iOS app attack surface and increase your apps security
 - Security control research across static and dynamic vulnerabilities
 - iOS vulnerability vector focus
@@ -67,7 +74,10 @@ All components are available in an iMAS github repo.
 
 *In the works*
 
-- Encrypted Core Data improvements
+- Encrypted Core Data improvements 
+   - Mostly completed as of June 1, 2013
+- Incorporating audit feedback from a prominent mobile security firm
+   - We are in the process of updated encrypted core-data and security-check
 - Application self-signing integrity check at run-time
   - Developer can programatically determine if the application image has been tampered with
 - Run-time memory encryption and post use scrub
@@ -76,6 +86,8 @@ All components are available in an iMAS github repo.
 - Encrypted RAM Disk: research bundling TrueCrypt RAM disk within an app; allows for rapid data destruction on app exit 
 - App Signature check: research confirmation that app is signed by original author
 - Encrypted Code Modules (ECM)
+- Enhancing [reMail](http://code.google.com/p/remail-iphone/) with iMAS as a test application
+
 
 How To Use
 ==========
@@ -101,7 +113,7 @@ We strongly encourage developers to clone and use iMAS. Once you’ve had a chan
 License
 -------
 
-Copyright 2012 The MITRE Corporation, All Rights Reserved.
+Copyright 2012,2013 The MITRE Corporation, All Rights Reserved.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this work except in compliance with the License.
