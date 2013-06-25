@@ -91,9 +91,7 @@ hReader
 =======
 iMAS has partnered with hReader to bolster the Apple provided security model. The developers added iMAS security controls to the application resulting in an experience that proved to be a great test-bed and partnership. hReader is a patient-centric mobile health data manager that securely provides patients and their families with their complete health information. To learn more about the application, go to [hReader.org](http://hReader.org) or check out their [source code](https://github.com/projecthreader/hReader).   
 
-*In the works*
-
-iMAS plans to publish a technical report describing the hReader security audit and its resulting, measured security compliance increase along with the labor costs.  Based on this, the iMAS community can add measured security to their applications in a cost effective manner.
+hReader Security Audit technical report is now available.  The report describes a security audit conducted on hReader in the summer of 2012 and it details the resulting, measured security compliance increase along with the labor costs.  Based on this, the iMAS community can add measured security to their applications in a cost effective manner.  To read more about this, please read the full report [here](https://github.com/project-imas/about/raw/master/hReader_Security_Audit_May2013.pdf)
 
 Use, Feedback, and Improvement
 ==============================
