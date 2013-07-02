@@ -15,15 +15,17 @@ iMAS Outreach
   - [local copy](http://htmlpreview.github.io/?https://github.com/project-imas/about/blob/master/Kenneth%20van%20Wyk%20%20Making%20safer%20iOS%20apps.htm) 
 - OWASP Project
   - [OWASP project page](https://www.owasp.org/index.php/OWASP_iMAS_iOS_Mobile_Application_Security_Project)
-- OWASP AppSEC Nov 2013
+- [OWASP AppSEC Nov 2013] (https://owasp.confex.com/owasp/appsecusa13/webprogram/Session1393.html)
   - iMAS will be presented by Gregg Ganley
-- BlackHat Arsenal Tools talk, July 2013
+- [BlackHat Arsenal talk] (http://www.blackhat.com/us-13/arsenal.html#Ganley), July/Aug 2013
   - iMAS will be demonstrated by Gregg Ganley and Shawn Valle, stop by and check it out!
 - [OWASP Northern Virginia Chapter, August 2013] (http://www.meetup.com/OWASP-Northern-Virginia-Chapter/events/119172702)
   - iMAS will be presented by Gregg Ganley
+- [iMAS YouTube video] (http://youtu.be/WRjh182z4Io), posted on July 2, 2013
 
 In Short
 ========
+- [iMAS YouTube video] (http://youtu.be/WRjh182z4Io)
 - iOS application defense
 - iOS security controls that go beyond Apple's security model
 - iMAS wrapped applications will reduce the iOS app attack surface and increase your apps security
