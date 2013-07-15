@@ -121,6 +121,18 @@ Contributing
 4. Push to the branch (`git push origin my_new_feature`)
 5. Create a new Pull Request
 
+iMAS Alumni
+-----------
+
+The iMAS research project wishes to recognize the efforts of the following people for their contributions to many 
+aspects of iMAS:
+
+- [Shawn Valle](https://github.com/SecurityShawn) 2012 and 2013
+- [Kevin O'Keefe](https://github.com/centerthread) 2013
+- [Caleb Davenport](https://github.com/calebmdavenport) 2012
+
+Thank You!
+
 License
 -------
 
