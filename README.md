@@ -5,7 +5,7 @@ iOS secure application framework research to reduce iOS application vulnerabilit
 
 ![screenshot](https://github.com/project-imas/about/raw/master/imas_logo.png)
 
-Researchers: [Gregg Ganley](https://github.com/gandg), [Shawn Valle](https://github.com/SecurityShawn), [Gavin Black](https://github.com/gblackMitre)
+Active Researchers: [Gregg Ganley](https://github.com/gandg) and [Gavin Black](https://github.com/gblackMitre)
 
 
 iMAS Outreach
@@ -18,7 +18,7 @@ iMAS Outreach
 - [OWASP AppSEC Nov 2013] (https://owasp.confex.com/owasp/appsecusa13/webprogram/Session1393.html)
   - iMAS will be presented by Gregg Ganley
 - [BlackHat Arsenal talk] (http://www.blackhat.com/us-13/arsenal.html#Ganley), July/Aug 2013
-  - iMAS will be demonstrated by Gregg Ganley and Shawn Valle, stop by and check it out!
+  - iMAS will be demonstrated by Gregg Ganley, stop by and check it out!
 - [OWASP Northern Virginia Chapter, August 2013] (http://www.meetup.com/OWASP-Northern-Virginia-Chapter/events/119172702)
   - iMAS will be presented by Gregg Ganley
 - [iMAS YouTube video] (http://youtu.be/WRjh182z4Io), posted on July 2, 2013
