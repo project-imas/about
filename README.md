@@ -21,11 +21,11 @@ iMAS Outreach
   - iMAS will be demonstrated by Gregg Ganley, stop by and check it out!
 - [OWASP Northern Virginia Chapter, August 2013] (http://www.meetup.com/OWASP-Northern-Virginia-Chapter/events/119172702)
   - iMAS will be presented by Gregg Ganley
-- [iMAS YouTube video] (http://youtu.be/WRjh182z4Io), posted on July 2, 2013
+- [iMAS YouTube video] (http://youtu.be/92A3kg_kUSc), posted on July 2, 2013
 
 In Short
 ========
-- [iMAS YouTube video] (http://youtu.be/WRjh182z4Io)
+- [iMAS YouTube video] (http://youtu.be/92A3kg_kUSc)
 - iOS application defense
 - iOS security controls that go beyond Apple's security model
 - iMAS wrapped applications will reduce the iOS app attack surface and increase your apps security
@@ -80,11 +80,11 @@ All components are available in an iMAS github repo.
    - Mostly completed as of June 1, 2013
 - Incorporating audit feedback from a prominent mobile security firm
    - We are in the process of updated encrypted core-data and security-check
+   - complete as of July 15, 2013
 - Application self-signing integrity check at run-time
   - Developer can programatically determine if the application image has been tampered with
 - Run-time memory encryption and post use scrub
   - Elliminate clear-text sensitive data from memory after app use
-- Independant security audit conducted on all security controls; updates to follow therafter
 - Encrypted RAM Disk: research bundling TrueCrypt RAM disk within an app; allows for rapid data destruction on app exit 
 - App Signature check: research confirmation that app is signed by original author
 - Encrypted Code Modules (ECM)
@@ -121,8 +121,8 @@ Contributing
 4. Push to the branch (`git push origin my_new_feature`)
 5. Create a new Pull Request
 
-iMAS Alumni
------------
+iMAS Alumni Researchers
+-----------------------
 
 The iMAS research project wishes to recognize the efforts of the following people for their contributions to many 
 aspects of iMAS:
