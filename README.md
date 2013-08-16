@@ -5,7 +5,7 @@ iOS secure application framework research to reduce iOS application vulnerabilit
 
 ![screenshot](https://github.com/project-imas/about/raw/master/imas_logo.png)
 
-Researchers: [Gregg Ganley](https://github.com/gandg), [Shawn Valle](https://github.com/SecurityShawn), [Gavin Black](https://github.com/gblackMitre)
+Active Researchers: [Gregg Ganley](https://github.com/gandg) and [Gavin Black](https://github.com/gblackMitre)
 
 
 iMAS Outreach
@@ -15,15 +15,17 @@ iMAS Outreach
   - [local copy](http://htmlpreview.github.io/?https://github.com/project-imas/about/blob/master/Kenneth%20van%20Wyk%20%20Making%20safer%20iOS%20apps.htm) 
 - OWASP Project
   - [OWASP project page](https://www.owasp.org/index.php/OWASP_iMAS_iOS_Mobile_Application_Security_Project)
-- OWASP AppSEC Nov 2013
+- [OWASP AppSEC Nov 2013] (https://owasp.confex.com/owasp/appsecusa13/webprogram/Session1393.html)
   - iMAS will be presented by Gregg Ganley
-- BlackHat Arsenal Tools talk, July 2013
-  - iMAS will be demonstrated by Gregg Ganley and Shawn Valle, stop by and check it out!
+- [BlackHat Arsenal talk] (http://www.blackhat.com/us-13/arsenal.html#Ganley), July/Aug 2013
+  - iMAS will be demonstrated by Gregg Ganley, stop by and check it out!
 - [OWASP Northern Virginia Chapter, August 2013] (http://www.meetup.com/OWASP-Northern-Virginia-Chapter/events/119172702)
   - iMAS will be presented by Gregg Ganley
+- [iMAS YouTube video] (http://youtu.be/92A3kg_kUSc), posted on July 2, 2013
 
 In Short
 ========
+- [iMAS YouTube video] (http://youtu.be/92A3kg_kUSc)
 - iOS application defense
 - iOS security controls that go beyond Apple's security model
 - iMAS wrapped applications will reduce the iOS app attack surface and increase your apps security
@@ -78,11 +80,11 @@ All components are available in an iMAS github repo.
    - Mostly completed as of June 1, 2013
 - Incorporating audit feedback from a prominent mobile security firm
    - We are in the process of updated encrypted core-data and security-check
+   - complete as of July 15, 2013
 - Application self-signing integrity check at run-time
   - Developer can programatically determine if the application image has been tampered with
 - Run-time memory encryption and post use scrub
   - Elliminate clear-text sensitive data from memory after app use
-- Independant security audit conducted on all security controls; updates to follow therafter
 - Encrypted RAM Disk: research bundling TrueCrypt RAM disk within an app; allows for rapid data destruction on app exit 
 - App Signature check: research confirmation that app is signed by original author
 - Encrypted Code Modules (ECM)
@@ -109,6 +111,27 @@ Use, Feedback, and Improvement
 ==============================
 
 We strongly encourage developers to clone and use iMAS. Once you’ve had a chance to use iMAS, tell us what you think by providing us with feedback on your intended use. This information will enable us to address relevancy and need - which will help to keep our research funded in the long run. Lastly, feel free to enhance and improve the actual controls by submitting pull requests early and often!
+
+Contributing
+============
+
+1. Fork it
+2. Create your feature branch (`git checkout -b my_new_feature`)
+3. Commit your changes (`git commit -m 'Added some feature' -a`)
+4. Push to the branch (`git push origin my_new_feature`)
+5. Create a new Pull Request
+
+iMAS Alumni Researchers
+-----------------------
+
+The iMAS research project wishes to recognize the efforts of the following people for their contributions to many 
+aspects of iMAS:
+
+- [Shawn Valle](https://github.com/SecurityShawn) 2012 and 2013
+- [Kevin O'Keefe](https://github.com/centerthread) 2013
+- [Caleb Davenport](https://github.com/calebmdavenport) 2012
+
+Thank You!
 
 License
 -------
