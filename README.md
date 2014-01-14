@@ -16,7 +16,7 @@ iMAS Outreach
 - OWASP Project
   - [OWASP project page](https://www.owasp.org/index.php/OWASP_iMAS_iOS_Mobile_Application_Security_Project)
 - [OWASP AppSEC Nov 2013] (https://owasp.confex.com/owasp/appsecusa13/webprogram/Session1393.html)
-  - iMAS presented by Gregg Ganley [link] (https://www.youtube.com/watch?v=TRDT8O2G56o&list=PLpr-xdpM8wG8ODR2zWs06JkMmlRiLyBXU&index=32)
+  - iMAS presented by Gregg Ganley [link] (https://www.youtube.com/watch?v=TRDT8O2G56o&list=PLpr-xdpM8wG8ODR2zWs06JkMmlRiLyBXU&index=32) [link to slides] (http://appsecusa.org/2013/wp-content/uploads/2013/12/iMAS-AppSecUSA-Nov13-v2.pptx)
 - [BlackHat Arsenal talk] (http://www.blackhat.com/us-13/arsenal.html#Ganley), July/Aug 2013
   - iMAS will be demonstrated by Gregg Ganley, stop by and check it out!
 - [OWASP Northern Virginia Chapter, August 2013] (http://www.meetup.com/OWASP-Northern-Virginia-Chapter/events/119172702)
