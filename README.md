@@ -16,17 +16,17 @@ iMAS Outreach
 - OWASP Project
   - [OWASP project page](https://www.owasp.org/index.php/OWASP_iMAS_iOS_Mobile_Application_Security_Project)
 - [OWASP AppSEC Nov 2013] (https://owasp.confex.com/owasp/appsecusa13/webprogram/Session1393.html)
-  - iMAS will be presented by Gregg Ganley
+  - iMAS presented by Gregg Ganley [link-to-video] (https://www.youtube.com/watch?v=TRDT8O2G56o&list=PLpr-xdpM8wG8ODR2zWs06JkMmlRiLyBXU&index=32) [link-to-slides] (http://2013.appsecusa.org/2013/wp-content/uploads/2013/12/iMAS-AppSecUSA-Nov13-v2.pptx)
 - [BlackHat Arsenal talk] (http://www.blackhat.com/us-13/arsenal.html#Ganley), July/Aug 2013
   - iMAS will be demonstrated by Gregg Ganley, stop by and check it out!
 - [OWASP Northern Virginia Chapter, August 2013] (http://www.meetup.com/OWASP-Northern-Virginia-Chapter/events/119172702)
-  - iMAS will be presented by Gregg Ganley
+  - iMAS presented by Gregg Ganley 
 - [iMAS YouTube video] (http://youtu.be/92A3kg_kUSc), posted on July 2, 2013
 
 In Short
 ========
 - [iMAS YouTube video] (http://youtu.be/92A3kg_kUSc)
-- iOS application defense
+- iOS Application defense
 - iOS security controls that go beyond Apple's security model
 - iMAS wrapped applications will reduce the iOS app attack surface and increase your apps security
 - Security control research across static and dynamic vulnerabilities
@@ -71,25 +71,28 @@ iMAS is researching both static and dynamic security defense in the form of cust
    - Provides a Core Data encrypted SQLite store using [SQLCipher](http://sqlcipher.net). 
 5. [*Security-check*](https://github.com/project-imas/security-check)
    - Application level, attached debug detect and jailbreak checking
- 
+6. [*OpenSSL-FIPS crypto*](https://github.com/project-imas/iOS-openSSL-FIPS)
+   - FIPS compliant SSL crypto ported to IOS
+7. [*Memory Security*](https://github.com/project-imas/memory-security)
+   - Library for securely clearing and validating iOS application memory
+   - Elliminate clear-text sensitive data from memory after app use
+
 All components are available in an iMAS github repo.
 
 *In the works*
 
-- Encrypted Core Data improvements 
-   - Mostly completed as of June 1, 2013
-- Incorporating audit feedback from a prominent mobile security firm
-   - We are in the process of updated encrypted core-data and security-check
-   - complete as of July 15, 2013
+- iMAS security boosted open source Email client
+   - Enhancing [reMail](http://code.google.com/p/remail-iphone/) with iMAS as a test application
+   - In process as of Aug/Sep 2013
 - Application self-signing integrity check at run-time
   - Developer can programatically determine if the application image has been tampered with
-- Run-time memory encryption and post use scrub
-  - Elliminate clear-text sensitive data from memory after app use
 - Encrypted RAM Disk: research bundling TrueCrypt RAM disk within an app; allows for rapid data destruction on app exit 
 - App Signature check: research confirmation that app is signed by original author
 - Encrypted Code Modules (ECM)
-- Enhancing [reMail](http://code.google.com/p/remail-iphone/) with iMAS as a test application
-
+   - Sensitive algorithms encrpyted and loaded at run-time and decrypted on the fly
+   - Research will continue in Sept/Oct, with a release targeted end of Oct.
+- FY14 Research planning
+   - New research areas including, Open Source MDM interface security controls, Dynamic Security app bundling, off device trust via USB port
 
 How To Use
 ==========
@@ -136,7 +139,7 @@ Thank You!
 License
 -------
 
-Copyright 2012,2013 The MITRE Corporation, All Rights Reserved.
+Copyright 2012, 2013 The MITRE Corporation, All Rights Reserved.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this work except in compliance with the License.
