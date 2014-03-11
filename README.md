@@ -1,4 +1,4 @@
-iMAS - iOS Mobile Application Security
+iMAS - iOS Mobile Application Security[![analytics](http://www.google-analytics.com/collect?v=1&t=pageview&_s=1&dl=https%3A%2F%2Fgithub.com%2Fproject-imas%2Fapp-password&_u=MAC~&cid=1757014354.1393964045&tid=UA-38868530-1)]()
 ======================================
 
 iOS secure application framework research to reduce iOS application vulnerabilities and information loss
@@ -152,7 +152,5 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
-
-[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/6de1461a188090688d86aa286b126032 "githalytics.com")](http://githalytics.com/project-imas/about)
 
 
