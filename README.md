@@ -18,7 +18,7 @@ iMAS Outreach
 - [OWASP AppSEC Nov 2013] (https://owasp.confex.com/owasp/appsecusa13/webprogram/Session1393.html)
   - iMAS presented by Gregg Ganley [link-to-video] (https://www.youtube.com/watch?v=TRDT8O2G56o&list=PLpr-xdpM8wG8ODR2zWs06JkMmlRiLyBXU&index=32) [link-to-slides] (http://2013.appsecusa.org/2013/wp-content/uploads/2013/12/iMAS-AppSecUSA-Nov13-v2.pptx)
 - [BlackHat Arsenal talk] (http://www.blackhat.com/us-13/arsenal.html#Ganley), July/Aug 2013
-  - (http://www.blackhat.com/images/page-graphics-usa13/us-13-slides.png) [Link to slides]
+  - [Link to slides] (http://www.blackhat.com/images/page-graphics-usa13/us-13-slides.png)
 - [OWASP Northern Virginia Chapter, August 2013] (http://www.meetup.com/OWASP-Northern-Virginia-Chapter/events/119172702)
   - iMAS presented by Gregg Ganley 
 - [iMAS YouTube video] (http://youtu.be/92A3kg_kUSc), posted on July 2, 2013
